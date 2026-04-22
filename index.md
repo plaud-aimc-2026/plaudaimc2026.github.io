@@ -1,5 +1,3 @@
-# Architecture and Affordances of PLAUD: Performative Latents and Unsupervised DDSP
-
 ## Abstract
 
 PLAUD (Performative Latents and Unsupervised DDSP) is a neural synthesizer and Max for Live instrument for live electronic music, built on NoiseBandNet with a variational latent space, and trained on small personal sound corpora. We present its architecture, combining a VAE-based DDSP synthesis model, reconstruction and adversarial training, and an optional transformer prior, alongside a set of bending operations that intervene directly in the synthesis chain: component limiting, waveshaping, and prior feedback. The Max for Live interface exposes control generation, trajectory sampling, and modulation as primary modes of interaction. Throughout, we thread an affordance analysis arguing that the system's performative character follows from architectural decisions rather than being designed on top of them. The paper contributes both a technical account of the system and a situated affordance analysis of its role in live electronic music performance.
